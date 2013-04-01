@@ -5,9 +5,14 @@
   "scripts": {
     "start": "node app"
   },
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
   "dependencies": {
     "express": "3.1.0",
     "jade": "*",
-    "stylus": "*"
+    "stylus": "*",
+    "mongodb": "*"
   }
 }
